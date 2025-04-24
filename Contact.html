@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+  <div class="top-bar">
+    <a href="index.html" class="back-link">← Back to Home</a>
+  </div>
+
+  <div class="page-content">
+    <section class="section">
+      <h2>Contact Me</h2>
+      <p class="intro">I'd love to hear from you! Fill out the form below or use the contact information provided.</p>
+
+      <form class="contact-form" action="https://formspree.io/f/xblgvzrz" method="POST">
+        <input type="text" name="name" placeholder="Your Full Name" required>
+        <input type="email" name="email" placeholder="Your Email Address" required>
+        <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+        <button type="submit">Send Message</button>
+        <input type="hidden" name="_redirect" value="https://yourdomain.com/thankyou.html">
+      </form>
+
+      <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+      <div class="contact-info">
+        <p>Email: <a href="mailto:nmanikumar5920@gmail.com">nmanikumar5920@gmail.com</a></p>
+        <p>Phone: +44-7554759949</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/nancharla" target="_blank">Visit Profile</a></p>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <hr class="footer-line">
+    <p>&copy; 2025 Mani Kumar Nancharla. All rights reserved.</p>
+  </footer>
+
+  <script src="contact.js"></script>
+</body>
+</html>
